@@ -29,7 +29,7 @@ namespace DesafioFundamentos.Models
             // Pedir para o usuário digitar a placa e armazenar na variável placa
             string placa = Console.ReadLine();
 
-            // Verifica se o veículo existe
+            // Verifica se o veículo existe na lista
             if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
             {
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
